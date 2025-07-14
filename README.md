@@ -122,16 +122,6 @@ const EMAIL_REMITENTE = "tu_email@gmail.com";
 const NOMBRE_REMITENTE = "Facherito Shop";
 ```
 
-## 👤 Usuarios por Defecto
-
-### Administrador
-- **Email:** junioralvines1005@gmail.com
-- **Password:** hello (SHA-256: a665a45920422f9d417e4867efdc4fb8a04a1f3fff1fa07e998e86f7f7a27ae3)
-
-### Cliente de Prueba
-- **Email:** asantacruzedgar@uss.edu.pe
-- **Password:** hello
-
 ## 🔐 Seguridad
 
 ### Medidas Implementadas
@@ -249,18 +239,6 @@ Las contribuciones son bienvenidas. Por favor:
 3. Commit tus cambios
 4. Push a la rama
 5. Abrir un Pull Request
-
-## 📋 Roadmap
-
-### Próximas Funcionalidades
-- [ ] Sistema de wishlist
-- [ ] Comparador de productos
-- [ ] Chat en vivo
-- [ ] Programa de lealtad
-- [ ] Cupones y descuentos
-- [ ] Inventario automático
-- [ ] API REST completa
-- [ ] App móvil nativa
 
 ## 🏆 Créditos
 
