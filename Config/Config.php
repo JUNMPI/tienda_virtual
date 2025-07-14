@@ -35,7 +35,7 @@
 
 	//Datos envio de correo
 	const NOMBRE_REMITENTE = "Facherito Shop";
-	const EMAIL_REMITENTE = "junioralvines1005@gmail.com";
+	const EMAIL_REMITENTE = "@gmail.com";
 	const NOMBRE_EMPESA = "Facherito Shop";
 	const WEB_EMPRESA = "www.facherito.com";
 
@@ -47,9 +47,9 @@
 	const TELEMPRESA = "+(51)954316648";
 	const WHATSAPP = "+50278787845";
 	const EMAIL_EMPRESA = "facheritoShop@gmail.com";
-	const EMAIL_PEDIDOS = "junioralvines1005@gmail.com"; 
-	const EMAIL_SUSCRIPCION = "junioralvines1005@gmail.com";
-	const EMAIL_CONTACTO = "junioralvines1005@gmail.com";
+	const EMAIL_PEDIDOS = "@gmail.com"; 
+	const EMAIL_SUSCRIPCION = "@gmail.com";
+	const EMAIL_CONTACTO = "@gmail.com";
 
 	const CAT_SLIDER = "1,2,3";
 	const CAT_BANNER = "4,5,6";
