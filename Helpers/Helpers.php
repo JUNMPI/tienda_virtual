@@ -89,13 +89,13 @@ function sendEmail($data, $template)
             $mail->isSMTP();                                            //Send using SMTP
             $mail->Host       = 'smtp.gmail.com';                     //Set the SMTP server to send through
             $mail->SMTPAuth   = true;                                   //Enable SMTP authentication
-            $mail->Username   = 'd.huapezfulanito@gmail.com';          //SMTP username
+            $mail->Username   = 'emeailejemplo@gmail.com';          //SMTP username
             $mail->Password   = 'kknh adqu zezt gzdi';                               //SMTP password
             $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;            //Enable implicit TLS encryption
             $mail->Port       = 465;                                    //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
 
             //Recipients
-            $mail->setFrom('d.huapezfulanito@gmail.com', 'Servidor Local');
+            $mail->setFrom('emeailejemplo@gmail.com', 'Servidor Local');
             $mail->addAddress($data['email']);     //Add a recipient
             if (!empty($data['emailCopia'])) {
                 $mail->addBCC($data['emailCopia']);
@@ -128,13 +128,13 @@ function sendMailLocal($data, $template)
         $mail->isSMTP();                                            //Send using SMTP
         $mail->Host       = 'smtp.gmail.com';                     //Set the SMTP server to send through
         $mail->SMTPAuth   = true;                                   //Enable SMTP authentication
-        $mail->Username   = 'd.huapezfulanito@gmail.com';                     //SMTP username
+        $mail->Username   = 'emeailejemplo@gmail.com';                     //SMTP username
         $mail->Password   = 'kknh adqu zezt gzdi';                               //SMTP password
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;            //Enable implicit TLS encryption
         $mail->Port       = 465;                                    //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
 
         //Recipients
-        $mail->setFrom('d.huapezfulanito@gmail.com', 'Servidor Local');
+        $mail->setFrom('emeailejemplo@gmail.com', 'Servidor Local');
         $mail->addAddress($data['email']);     //Add a recipient
         if (!empty($data['emailCopia'])) {
             $mail->addBCC($data['emailCopia']);
